@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name><![CDATA[abrightwell-gentoo-overlay]]></name>
+    <description lang="en">
+      <![CDATA[Personal Gentoo Overlay]]>
+    </description>
+    <homepage>https://github.com/abrightwell/gentoo-overlay</homepage>
+    <owner type="person">
+      <email>adam.brightwell@gmail.com</email>
+      <name><![CDATA[abrightwell]]></name>
+    </owner>
+    <source type="git" branch="master">https://github.com/abrightwell/gentoo-overlay.git</source>
+    <source type="git">git@github.com:abrightwell/gentoo-overlay.git</source>
+    <feed>https://github.com/abrightwell/gentoo-overlay/commits/master.atom</feed>
+  </repo>
+</repositories>

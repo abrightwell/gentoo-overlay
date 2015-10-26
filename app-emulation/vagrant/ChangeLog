@@ -1,0 +1,39 @@
+# ChangeLog for app-emulation/vagrant
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*vagrant-1.7.4 (14 Aug 2015)
+
+  14 Aug 2015; <lfelicite@gentoo.org> +vagrant-1.7.4.ebuild,
+  +files/vagrant-1.7.4_01_no-warning.patch, +files/vagrant-1.7.4_02_rvm.patch:
+  close #2
+  upgrade to 1.7.4
+
+  10 Aug 2015; <lfelicite@gentoo.org> vagrant-1.7.3.ebuild:
+  refs #4
+  forgot to add wirn* dependancy in ebuild :x
+
+  10 Aug 2015; <lfelicite@gentoo.org> vagrant-1.7.3.ebuild:
+  refs #4
+  remove deletion winrm* gem since I provide them now
+
+  & vagrant require them
+
+*vagrant-1.7.3 (05 Aug 2015)
+
+  05 Aug 2015; <lfelicite@gentoo.org> +vagrant-1.7.3.ebuild,
+  +files/vagrant-1.7.3-no-warning.patch, +files/vagrant-1.7.3-rvm.patch:
+  fix #1
+  bump vagrant to 1.7.3
+
+  13 Jul 2015; <lfelicite@gentoo.org> vagrant-1.7.2.ebuild,
+  +files/vagrant-1.7.2-no-warning.patch, +files/vagrant-1.7.2-rvm.patch:
+  Remove warning since I built from the gem
+  Add the patch files taken from gentoo bug #474476
+
+  13 Jul 2015; <lfelicite@gentoo.org> vagrant-1.7.2.ebuild:
+  remove specific OS dependency
+
+  13 Jul 2015; <lfelicite@gentoo.org> vagrant-1.7.2.ebuild:
+  add hashicorp-checkpoint dependency
+
